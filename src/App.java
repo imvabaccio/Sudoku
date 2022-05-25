@@ -96,7 +96,7 @@ public class App {
         });
 
         JButton clearButton = new JButton("Clear");
-        clearButton.setFont(clearButton.getFont().deriveFont(60f));
+        clearButton.setFont(clearButton.getFont().deriveFont(20f));
         root.add(clearButton);
         clearButton.addActionListener(new ActionListener() {
             @Override
